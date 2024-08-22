@@ -1,0 +1,51 @@
+:root {
+    /* Colores */
+    --primary-bg-color: #2c2c2c;
+    --text-color: #ffffff;
+    --accent-color: #27ae60;
+    --hover-color: #2ecc71;
+    --dark-bg-color: #333;
+    --skill-bg-color: #444;
+
+    /* Fuentes */
+    --font-family: 'Roboto', sans-serif;
+
+    /* Tamaños de fuente */
+    --hero-title-size: 3em;
+    --section-title-size: 2.5em;
+    --text-size: 1.2em;
+    --base-text-size: 1em;
+
+    /* Espaciados */
+    --section-padding: 60px;
+    --button-padding: 10px 20px;
+
+    /* Otros */
+    --max-width: 1200px;
+    --border-radius: 5px;
+    --profile-img-radius: 50%;
+}
+
+body {
+    background-color: var(--primary-bg-color);
+    color: var(--text-color);
+    font-family: var(--font-family);
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: var(--section-padding);
+}
+
+/* Ejemplo de uso de variables */
+.hero-title {
+    font-size: var(--hero-title-size);
+}
+
+.button {
+    background-color: var(--accent-color);
+    padding: var(--button-padding);
+    border-radius: var(--border-radius);
+}
+
+.button:hover {
+    background-color: var(--hover-color);
+}
